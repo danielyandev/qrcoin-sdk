@@ -1,0 +1,13 @@
+{
+  "name": "@danielyandev/qr-constants",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "files": ["build/**/*"],
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ruben Danielyan",
+  "license": "ISC"
+}
