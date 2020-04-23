@@ -1,0 +1,19 @@
+{
+  "name": "qrcoin-sdk",
+  "version": "1.0.0",
+  "description": "SDK for Qrcoin blockchain apps",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielyandev/qrcoin-sdk.git"
+  },
+  "author": "Ruben Danielyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielyandev/qrcoin-sdk/issues"
+  },
+  "homepage": "https://github.com/danielyandev/qrcoin-sdk#readme"
+}

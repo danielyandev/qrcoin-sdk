@@ -1,0 +1,50 @@
+{
+  "name": "@danielyandev/qr-wallet",
+  "version": "1.0.1",
+  "description": "Qr blockchain wallet",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "files": [
+    "build/**/*"
+  ],
+  "scripts": {
+    "build": "tsc --project ./tsconfig.json",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "tslint -p tsconfig.json",
+    "test": "jest --config jestconfig.json",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format",
+    "postversion": "rm -rf build"
+  },
+  "author": "Ruben Danielyan",
+  "keywords": [
+    "wallet",
+    "crypto-wallet",
+    "blockchain"
+  ],
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielyandev/qr-wallet.git"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "jest": "^25.4.0",
+    "prettier": "^2.0.5",
+    "ts-jest": "^25.4.0",
+    "tslint": "^6.1.1",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@danielyandev/qr-blockchain": "^1.0.0",
+    "@danielyandev/qr-constants": "^1.0.0",
+    "@danielyandev/qr-exceptions": "^1.0.0",
+    "@danielyandev/qr-logger": "^1.0.0",
+    "@danielyandev/qr-transactions": "^1.0.1",
+    "@danielyandev/qr-utils": "^1.0.1",
+    "bip39": "^3.0.2"
+  }
+}
