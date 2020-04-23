@@ -1,0 +1,46 @@
+{
+  "name": "@danielyandev/qr-transactions",
+  "version": "1.0.1",
+  "description": "Qr blockchain transactions",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "files": [
+    "build/**/*"
+  ],
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "tslint -p tsconfig.json",
+    "test": "jest --config jestconfig.json",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "author": "Ruben Danielyan",
+  "keywords": [
+    "pool",
+    "mempool",
+    "transactions"
+  ],
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielyandev/qr-transactions.git"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "jest": "^25.4.0",
+    "prettier": "^2.0.5",
+    "ts-jest": "^25.4.0",
+    "tslint": "^6.1.1",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@danielyandev/qr-constants": "^1.0.0",
+    "@danielyandev/qr-utils": "^1.0.1",
+    "@danielyandev/qr-wallet": "^1.0.0"
+  }
+}

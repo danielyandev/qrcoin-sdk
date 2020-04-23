@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "lib": ["es2017", "es7", "es6", "dom"],
+    "declaration": true,
+    "outDir": "build",
+    "target": "es2019",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "newLine": "lf",
+    "pretty": true,
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "include": ["./**/*.ts"],
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
+}
