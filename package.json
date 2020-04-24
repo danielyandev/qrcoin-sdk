@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/danielyandev/qrcoin-sdk#readme",
   "dependencies": {
-    "qrcoin-sdk": "^1.0.0"
+    "qrcoin-sdk": "^1.0.1"
   }
 }
