@@ -1,0 +1,53 @@
+{
+  "name": "@danielyandev/qr-node",
+  "version": "1.0.0",
+  "description": "Qr blockchain node",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "files": [
+    "build/**/*"
+  ],
+  "scripts": {
+    "build": "tsc --project ./tsconfig.json",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "tslint -p tsconfig.json",
+    "test": "jest --config jestconfig.json",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format",
+    "postversion": "rm -rf build"
+  },
+  "author": "Ruben Danielyan",
+  "keywords": [
+    "Blockchain",
+    "Cryptocurrency",
+    "PoS"
+  ],
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielyandev/qrcoin-sdk.git"
+  },
+  "dependencies": {
+    "@danielyandev/qr-blockchain": "^1.0.1",
+    "@danielyandev/qr-http-server": "^1.0.1",
+    "@danielyandev/qr-logger": "^1.0.7",
+    "@danielyandev/qr-p2p-server": "^1.0.2",
+    "@danielyandev/qr-transaction-pool": "^1.0.1",
+    "@danielyandev/qr-utils": "^1.0.2",
+    "@danielyandev/qr-wallet": "^1.0.2",
+    "bip39": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "@types/jest": "^25.2.1",
+    "@types/ws": "^7.2.4",
+    "jest": "^25.4.0",
+    "prettier": "^2.0.5",
+    "ts-jest": "^25.4.0",
+    "tslint": "^6.1.1",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.8.3"
+  }
+}

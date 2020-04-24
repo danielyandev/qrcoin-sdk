@@ -1,0 +1,8 @@
+{
+  "timestamp": 1,
+  "lastHash": "no-last-hash",
+  "hash": "genesis-hash",
+  "transactions": [],
+  "validator": "genesis-validator",
+  "signature": "genesis-signature"
+}
