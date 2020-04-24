@@ -2,7 +2,7 @@
   "name": "qrcoin-sdk-mono-repo",
   "private": true,
   "version": "1.0.0",
-  "description": "SDK for Qrcoin blockchain apps",
+  "description": "Qrcoin blockchain mono repository",
   "main": "build/index.js",
   "scripts": {
     "build": "tsc --project ./tsconfig.json"

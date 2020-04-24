@@ -1,0 +1,33 @@
+{
+  "name": "qrcoin-sdk",
+  "version": "1.0.0",
+  "description": "Qr blockchain SDK",
+  "author": "Ruben Danielyan",
+  "license": "ISC",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "files": [
+    "build/**/*"
+  ],
+  "scripts": {
+    "build": "tsc --project ./tsconfig.json",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "@danielyandev/qr-blockchain": "^1.0.1",
+    "@danielyandev/qr-constants": "^1.0.0",
+    "@danielyandev/qr-account": "^1.0.2",
+    "@danielyandev/qr-logger": "^1.0.1",
+    "@danielyandev/qr-transaction-pool": "^1.0.1",
+    "@danielyandev/qr-transactions": "^1.0.2",
+    "@danielyandev/qr-utils": "^1.0.2",
+    "@danielyandev/qr-wallet": "^1.0.2",
+    "@danielyandev/qr-exceptions": "^1.0.0",
+    "@danielyandev/qr-http-server": "^1.0.0",
+    "@danielyandev/qr-p2p-server": "^1.0.0",
+    "@danielyandev/qr-node": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
+}
