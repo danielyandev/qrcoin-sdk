@@ -75,7 +75,7 @@ class Account {
    *
    * @param transaction
    */
-  update(transaction: TransferTransaction) {
+  update(transaction: any) {
     const amount = transaction.output.amount;
     const from = transaction.input.sender;
     const to = transaction.output.recipient;

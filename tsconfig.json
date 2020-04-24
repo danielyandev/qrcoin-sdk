@@ -11,7 +11,8 @@
     "removeComments": true,
     "resolveJsonModule": true,
     "sourceMap": true,
-    "strict": true
+    "strict": true,
+    "esModuleInterop": true
   },
   "include": ["./**/*.ts"],
   "exclude": [

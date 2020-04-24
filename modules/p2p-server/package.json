@@ -1,6 +1,6 @@
 {
   "name": "@danielyandev/qr-p2p-server",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Qr blockchain p2p server",
   "main": "build/index.js",
   "types": "build/index.d.ts",

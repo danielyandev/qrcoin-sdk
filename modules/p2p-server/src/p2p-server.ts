@@ -1,6 +1,6 @@
 import { Block } from '@danielyandev/qr-blockchain';
 import Wallet from '@danielyandev/qr-wallet';
-import WebSocket from 'ws';
+import * as WebSocket from 'ws';
 import { Enums } from '@danielyandev/qr-utils';
 import Logger from '@danielyandev/qr-logger';
 
