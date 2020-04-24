@@ -69,7 +69,7 @@ class Stake {
    *
    * @param transaction
    */
-  update(transaction: StakeTransaction) {
+  update(transaction: any) {
     const amount = transaction.output.amount;
     const from = transaction.input.sender;
     Logger.log('New amount staked ' + amount);

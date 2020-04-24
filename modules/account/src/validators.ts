@@ -8,7 +8,7 @@ class Validators {
     this.list = [initialValidator];
   }
 
-  update(transaction: ValidatorRequestTransaction) {
+  update(transaction: any) {
     if (transaction.output.amount >= VALIDATORS_FEE && transaction.output.recipient === '0') {
       Logger.log('New validator added');
       this.list.push(transaction.input.sender);

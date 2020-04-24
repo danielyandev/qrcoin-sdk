@@ -1,10 +1,17 @@
 {
-  "name": "qrcoin-sdk",
+  "name": "qrcoin-sdk-mono-repo",
+  "private": true,
   "version": "1.0.0",
   "description": "SDK for Qrcoin blockchain apps",
   "main": "build/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "workspaces": {
+    "packages": [
+      "modules/*",
+      "node"
+    ]
   },
   "repository": {
     "type": "git",
