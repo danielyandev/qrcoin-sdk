@@ -1,6 +1,6 @@
 {
   "name": "@danielyandev/qr-p2p-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Qr blockchain p2p server",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -39,10 +39,10 @@
     "typescript": "^3.8.3"
   },
   "dependencies": {
-    "@danielyandev/qr-blockchain": "^1.0.0",
-    "@danielyandev/qr-logger": "^1.0.0",
-    "@danielyandev/qr-utils": "^1.0.1",
-    "@danielyandev/qr-wallet": "^1.0.0",
+    "@danielyandev/qr-blockchain": "^1.0.1",
+    "@danielyandev/qr-logger": "^1.0.1",
+    "@danielyandev/qr-utils": "^1.0.2",
+    "@danielyandev/qr-wallet": "^1.0.2",
     "ws": "^7.2.3"
   }
 }

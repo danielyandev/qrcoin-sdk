@@ -1,6 +1,6 @@
 {
   "name": "@danielyandev/qr-http-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Qr blockchain http server",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -36,11 +36,11 @@
     "typescript": "^3.8.3"
   },
   "dependencies": {
-    "@danielyandev/qr-blockchain": "^1.0.0",
-    "@danielyandev/qr-logger": "^1.0.0",
-    "@danielyandev/qr-transaction-pool": "^1.0.0",
+    "@danielyandev/qr-blockchain": "^1.0.1",
+    "@danielyandev/qr-logger": "^1.0.1",
+    "@danielyandev/qr-transaction-pool": "^1.0.1",
     "body-parser": "^1.19.0",
-    "express-ipfilter": "^1.1.2",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "express-ipfilter": "^1.1.2"
   }
 }

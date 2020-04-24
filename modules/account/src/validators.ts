@@ -1,6 +1,6 @@
 import { ValidatorRequestTransaction } from '@danielyandev/qr-transactions';
 import { VALIDATORS_FEE } from '@danielyandev/qr-constants';
-import Logger from "@danielyandev/qr-logger";
+import Logger from '@danielyandev/qr-logger';
 
 class Validators {
   list: string[];

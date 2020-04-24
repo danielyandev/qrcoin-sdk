@@ -1,6 +1,6 @@
-const {TransferTransaction} = require('../index')
+const {TransferTransaction} = require('../build')
 
-test('throws error with wrong params', () => {
+test('throw error with wrong params', () => {
     const create = () => {
         const tx = new TransferTransaction()
     }

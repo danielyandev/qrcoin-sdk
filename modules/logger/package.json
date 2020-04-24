@@ -1,6 +1,6 @@
 {
   "name": "@danielyandev/qr-logger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -11,6 +11,6 @@
   "author": "Ruben Danielyan",
   "license": "ISC",
   "dependencies": {
-    "@danielyandev/qr-utils": "^1.0.1"
+    "@danielyandev/qr-utils": "^1.0.2"
   }
 }

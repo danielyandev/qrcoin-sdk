@@ -1,6 +1,6 @@
 {
   "name": "@danielyandev/qr-wallet",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Qr blockchain wallet",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -39,12 +39,12 @@
     "typescript": "^3.8.3"
   },
   "dependencies": {
-    "@danielyandev/qr-blockchain": "^1.0.0",
+    "@danielyandev/qr-blockchain": "^1.0.1",
     "@danielyandev/qr-constants": "^1.0.0",
     "@danielyandev/qr-exceptions": "^1.0.0",
-    "@danielyandev/qr-logger": "^1.0.0",
-    "@danielyandev/qr-transactions": "^1.0.1",
-    "@danielyandev/qr-utils": "^1.0.1",
+    "@danielyandev/qr-logger": "^1.0.1",
+    "@danielyandev/qr-transactions": "^1.0.2",
+    "@danielyandev/qr-utils": "^1.0.2",
     "bip39": "^3.0.2"
   }
 }

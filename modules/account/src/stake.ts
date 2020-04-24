@@ -1,5 +1,5 @@
 import { StakeTransaction } from '@danielyandev/qr-transactions';
-import Logger from "@danielyandev/qr-logger";
+import Logger from '@danielyandev/qr-logger';
 
 class Stake {
   addresses: string[];

@@ -1,6 +1,6 @@
 {
   "name": "@danielyandev/qr-transactions",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Qr blockchain transactions",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -40,7 +40,7 @@
   },
   "dependencies": {
     "@danielyandev/qr-constants": "^1.0.0",
-    "@danielyandev/qr-utils": "^1.0.1",
-    "@danielyandev/qr-wallet": "^1.0.0"
+    "@danielyandev/qr-utils": "^1.0.2",
+    "@danielyandev/qr-wallet": "^1.0.2"
   }
 }

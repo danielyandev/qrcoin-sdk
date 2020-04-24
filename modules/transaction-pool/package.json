@@ -1,6 +1,6 @@
 {
   "name": "@danielyandev/qr-transaction-pool",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Qr blockchain transaction pool",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -40,7 +40,7 @@
   },
   "dependencies": {
     "@danielyandev/qr-constants": "^1.0.0",
-    "@danielyandev/qr-logger": "^1.0.0",
-    "@danielyandev/qr-transactions": "^1.0.1"
+    "@danielyandev/qr-logger": "^1.0.1",
+    "@danielyandev/qr-transactions": "^1.0.2"
   }
 }
