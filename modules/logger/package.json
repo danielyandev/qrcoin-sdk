@@ -1,9 +1,12 @@
 {
   "name": "@danielyandev/qr-logger",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
   "main": "build/index.js",
   "types": "build/index.d.ts",
+  "files": [
+    "build/**/*"
+  ],
   "scripts": {
     "build": "tsc --project tsconfig.json",
     "test": "echo \"Error: no test specified\" && exit 1"
