@@ -1,4 +1,5 @@
 import {Enums} from "@danielyandev/qr-utils";
+
 const ConsoleColors = Enums.ConsoleColors
 
 class Logger {

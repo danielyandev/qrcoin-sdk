@@ -12,8 +12,7 @@
     "resolveJsonModule": true,
     "sourceMap": true,
     "strict": true,
-    "esModuleInterop": true,
-    "allowJs": true
+    "esModuleInterop": true
   },
   "include": ["./**/*.ts"],
   "exclude": [
