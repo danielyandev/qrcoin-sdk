@@ -1,6 +1,6 @@
 {
   "name": "@danielyandev/qr-http-server",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Qr blockchain http server",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -23,8 +23,12 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danielyandev/qr-http-server.git"
+    "url": "git+https://github.com/danielyandev/qrcoin-sdk.git"
   },
+  "bugs": {
+    "url": "https://github.com/danielyandev/qrcoin-sdk/issues"
+  },
+  "homepage": "https://github.com/danielyandev/qrcoin-sdk/tree/master/modules/http-server",
   "devDependencies": {
     "@types/express": "^4.17.6",
     "@types/jest": "^25.2.1",

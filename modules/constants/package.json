@@ -1,14 +1,21 @@
 {
   "name": "@danielyandev/qr-constants",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "build/index.js",
   "files": [
     "build/**/*"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielyandev/qrcoin-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/danielyandev/qrcoin-sdk/issues"
+  },
+  "homepage": "https://github.com/danielyandev/qrcoin-sdk/tree/master/modules/constants",
   "scripts": {
-    "build": "tsc --project tsconfig.json",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc --project tsconfig.json"
   },
   "author": "Ruben Danielyan",
   "license": "ISC"

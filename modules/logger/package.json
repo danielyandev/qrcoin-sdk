@@ -1,6 +1,6 @@
 {
   "name": "@danielyandev/qr-logger",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -13,6 +13,14 @@
   },
   "author": "Ruben Danielyan",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielyandev/qrcoin-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/danielyandev/qrcoin-sdk/issues"
+  },
+  "homepage": "https://github.com/danielyandev/qrcoin-sdk/tree/master/modules/logger",
   "dependencies": {
     "@danielyandev/qr-utils": "^1.0.2"
   }

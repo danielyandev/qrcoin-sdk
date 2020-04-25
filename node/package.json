@@ -1,6 +1,6 @@
 {
   "name": "@danielyandev/qr-node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Qr blockchain node",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -29,6 +29,10 @@
     "type": "git",
     "url": "git+https://github.com/danielyandev/qrcoin-sdk.git"
   },
+  "bugs": {
+    "url": "https://github.com/danielyandev/qrcoin-sdk/issues"
+  },
+  "homepage": "https://github.com/danielyandev/qrcoin-sdk/tree/master/node",
   "dependencies": {
     "@danielyandev/qr-blockchain": "^1.0.1",
     "@danielyandev/qr-http-server": "^1.0.1",

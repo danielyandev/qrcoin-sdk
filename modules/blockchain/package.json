@@ -1,6 +1,6 @@
 {
   "name": "@danielyandev/qr-blockchain",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Qr blockchain",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -27,8 +27,12 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danielyandev/qr-blockchain.git"
+    "url": "git+https://github.com/danielyandev/qrcoin-sdk.git"
   },
+  "bugs": {
+    "url": "https://github.com/danielyandev/qrcoin-sdk/issues"
+  },
+  "homepage": "https://github.com/danielyandev/qrcoin-sdk/tree/master/modules/blockchain",
   "dependencies": {
     "@danielyandev/qr-account": "^1.0.2",
     "@danielyandev/qr-logger": "^1.0.1",

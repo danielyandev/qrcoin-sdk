@@ -1,6 +1,6 @@
 {
   "name": "@danielyandev/qr-transaction-pool",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Qr blockchain transaction pool",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -27,8 +27,12 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danielyandev/qr-transaction-pool.git"
+    "url": "git+https://github.com/danielyandev/qrcoin-sdk.git"
   },
+  "bugs": {
+    "url": "https://github.com/danielyandev/qrcoin-sdk/issues"
+  },
+  "homepage": "https://github.com/danielyandev/qrcoin-sdk/tree/master/modules/transaction-pool",
   "devDependencies": {
     "@types/jest": "^25.2.1",
     "jest": "^25.4.0",

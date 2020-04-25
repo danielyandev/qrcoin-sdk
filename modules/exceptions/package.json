@@ -1,6 +1,6 @@
 {
   "name": "@danielyandev/qr-exceptions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Qr exceptions",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -23,8 +23,12 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danielyandev/qr-exceptions.git"
+    "url": "git+https://github.com/danielyandev/qrcoin-sdk.git"
   },
+  "bugs": {
+    "url": "https://github.com/danielyandev/qrcoin-sdk/issues"
+  },
+  "homepage": "https://github.com/danielyandev/qrcoin-sdk/tree/master/modules/exceptions",
   "devDependencies": {
     "@types/jest": "^25.2.1",
     "jest": "^25.4.0",
